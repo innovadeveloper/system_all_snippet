@@ -1,0 +1,34 @@
+{
+  "name": "system-all-snippet",
+  "displayName": "system_all_snippet",
+  "description": "Add code snippets for many projects",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "publisher": "kanebaltazar",
+  "author": {
+    "name": "Kane Baltazar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/innovadeveloper/system_all_snippet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innovadeveloper/system_all_snippet"
+  },
+  "bugs": {
+    "url": "https://github.com/innovadeveloper/system_all_snippet/issues"
+  },
+  "icon": "images/extension-icon.webp",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

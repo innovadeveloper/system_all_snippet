@@ -1,0 +1,20 @@
+{
+    "Print to console": {
+        "prefix": "_log",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "scope": "dart",
+        "description": "Log output to console"
+    },
+    "Create Close State": {
+        "prefix": "_ccs",
+        "body": [
+            "// create close state with freezed",
+            "$2"
+        ],
+        "scope": "dart",
+        "description": "Create close state with @freezed"
+    }
+}
